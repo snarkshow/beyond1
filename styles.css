@@ -1,0 +1,72 @@
+html{
+    font-family: 'Tahoma', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(0, 132, 255);
+}
+
+h1{
+    color: gold;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+form{
+    background-color: white;
+    display: flex;
+    font-size: 0.8rem;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    width: 400px;
+}
+
+.formOverlay{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+    padding: 10%;
+    position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.modalClose{
+    background-color: firebrick;
+    border: 1px solid firebrick;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    position: absolute;
+    top: 5%; right: 5%;    
+}
+
+.modalClose:hover{
+    background-color: rgb(243, 3, 3);
+    font-size: 1.1rem;
+}
+
+h2{
+    display: block;
+    font-size: 1.75rem;
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+
+.visible{
+    display: block;
+}
+
+input{
+    font-size: 0.7rem;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.formShortContainer{
+    display: flex;
+    justify-content: center;
+}
